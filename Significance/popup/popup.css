@@ -1,0 +1,9 @@
+body {
+  background-color: #FFFFFF;
+}
+#tabColorPicker {
+  display:inline-block;
+  margin-right:10px;
+  width:200px;
+}
+#changeTabColorButton {display:inline-block;}
