@@ -1,9 +1,12 @@
 body {
   background-color: #FFFFFF;
 }
-#tabColorPicker {
+/* #tabColorPicker {
   display:inline-block;
   margin-right:10px;
   width:200px;
+} */
+
+.submitButton {
+  
 }
-#changeTabColorButton {display:inline-block;}

@@ -7,18 +7,26 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="popup.css">
-    <link rel="stylesheet" href="../node_modules/@simonwep/pickr/dist/themes/nano.min.css"/>
+    <!-- <link rel="stylesheet" href="../node_modules/@simonwep/pickr/dist/themes/nano.min.css"/> -->
   </head>
   <body>
     <div>
-      <p>Color of New Tab</p>
-      <div class="color-picker" id="tabColorPicker"></div>
-      <button type="button" name="Change Tab Color" id="changeTabColorButton">Change Tab Color</button>
+      <label for="groupName">Group Name:</lable><br>
+      <input type="text" id="groupName" name="groupName"></input>
+
+      <br><br>
+
+      <label for="URL">URL Asociated With Group</lable><br>
+      <input type="text" id="URL" name="URL"></input>
+
+      <br><br>
+
+      <button type="button" name="createSmartTabGroup" id="createSmartTabGroup" class="submitButton">Create Smart Tab Group</button>
     </div>
   </body>
   <footer>
     <!-- Scripts -->
-    <script src="../node_modules/@simonwep/pickr/dist/pickr.min.js"></script>
+    <!-- <script src="../node_modules/@simonwep/pickr/dist/pickr.min.js"></script> -->
     <script type="text/javascript" src="popup.js"></script>
   </footer>
 </html>

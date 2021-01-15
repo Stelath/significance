@@ -25,5 +25,11 @@
   // Ask for Permissions
   "permissions": [
           "tabs"
-        ]
+  ],
+
+  // Setup Background Scripts
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
 }
